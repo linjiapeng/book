@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_tabs" />
+
+
+
+    <RadioGroup
+        android:id="@+id/rg_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/table_color"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_text"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:button="@null"
+            android:layout_gravity="center_vertical"
+            android:drawableTop="@drawable/selector_check_ic_textbook"
+            android:text="@string/textbook"
+            android:textColor="@drawable/selector_check_accent"
+            android:gravity="center_horizontal"
+            />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_check_ic_setting"
+            android:text="@string/setting"
+            android:textColor="@drawable/selector_check_accent"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"/>
+    </RadioGroup>
+
+
+
+    <ImageView
+        android:id="@+id/iv_add"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/add" />
+
+</RelativeLayout>

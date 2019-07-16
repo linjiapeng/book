@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Elk NoteBook</string>
+    <string name="textbook">NoteBook</string>
+    <string name="add">addtion</string>
+    <string name="setting">setting</string>
+    <string name="language">language</string>
+    <string name="react">feedback</string>
+    <string name="text_hint">Please enter what you need...</string>
+    <string name="textdetial">Notepad details</string>
+    <string name="item_delete">Delete</string>
+    <string name="back">back</string>
+    <string name="btnlogin">Login</string>
+    <string name="remember">Remember Password</string>
+    <string name="back_login">Login Out</string>
+</resources>

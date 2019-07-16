@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorText">#1B191A</color>
+
+    <color name="Notifiy_color">#F8F8F9</color>
+    <color name="title_color">#FFFFFF</color>
+    <color name="table_color">#DCDCDC</color>
+    <color name="gray_999999">#FFFBF0</color>
+    <color name="gray_D1D1D1">#D1D1D1</color>
+
+    <color name="gray_515151">#515151</color>
+    <color name="green_1afa29">#15AF20</color>
+    
+    <color name="message_title">#38ADFF</color>
+    <color name="dialog_line">#E4E4E4</color>
+    <color name="gray_7D7D7D">#7D7D7D</color>
+    <color name="login">#B1DAF5</color>
+</resources>
